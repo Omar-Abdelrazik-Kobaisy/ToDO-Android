@@ -1,0 +1,64 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Todo" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryVariant">@color/blue_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/blue</item>
+        <item name="colorSecondaryVariant">@color/blue_dark</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="splashBackGround" parent="Theme.Todo">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:background">@drawable/splash</item>
+    </style>
+
+    <style name="toolbarTitle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="toolbarColor">
+        <item name="android:background">@color/blue</item>
+    </style>
+    
+    <style name="addTaskTitle">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="addTaskET">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="ThemeOverlay.Material3.Button.ElevatedButton.btn">
+        <item name="android:backgroundTint">@color/blue</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="itemBackGround">
+        <item name="background">@color/white</item>
+    </style>
+    <style name="taskTitle">
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginStart">10dp</item>
+    </style>
+    <style name="taskDesc">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_marginStart">10dp</item>
+    </style>
+</resources>
